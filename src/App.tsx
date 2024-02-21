@@ -14,6 +14,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/contact' element={ <h1>contact</h1>}/>
         </Routes>
       </Router>
       </UIContextProvider>
